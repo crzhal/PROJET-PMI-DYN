@@ -48,6 +48,8 @@ ul {
   background-color: rgba(41, 41, 40, 1);
 }
 
+
+
 .menu-collapsed {
   -webkit-transition: all .25s;
   -moz-transition: all .25s;
@@ -397,6 +399,11 @@ span.nom_projet {
     font-size: 2em;
     line-height: 200px;
   }
+  
+  .mobile-sh {
+  width:300px !important;
+  height:auto !important:
+}
 }
 
 

@@ -25,7 +25,7 @@ $(document).ready(function () {
   });
 
   //BAR DE DESCRIPTION
-  $(".desc-h1").click(function () {
+  $(".desc-h1, .fa-angle-double-down").click(function () {
     $(".desc-collapsed").toggleClass("desc-expanded");
   });
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
   });
 
   //FAIT LA ROTATION DE L'ICONE FLECH DESC    
-  $(".desc-h1").click(function () {
+  $(".desc-h1, .fa-angle-double-down").click(function () {
     $(".rotate").toggleClass("down");
   });
 
