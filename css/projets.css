@@ -368,6 +368,15 @@ span.nom_projet {
   display: none;
 }
 
+.mobile-sh {
+  width:200px !important;
+  height:auto !important:
+}
+
+.desktop-sh {
+  display:none!important;
+}
+
 
 /*TABLETTE*/
 
@@ -436,6 +445,11 @@ span.nom_projet {
    img.mobile{
         display: none !important;
     }
+  
+  .desktop-sh {
+    display:inline-block !important;
+  }
+  
 }
 
 
