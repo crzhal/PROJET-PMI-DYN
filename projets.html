@@ -96,8 +96,8 @@
 
 
           "<div class='hell-div'>" +
-          "<img class='hell desktop' src='"+data.projet[i].img+"' alt=''>"+
-          "<img class='hell mobile' src='"+data.projet[i].imgm+"' alt=''>"+
+          "<img class='hell desktop desktop-sh' src='"+data.projet[i].img+"' alt=''>"+
+          "<img class='hell mobile mobile-sh' src='"+data.projet[i].imgm+"' alt=''>"+
           "</div>" +
           "</div>"
         )
@@ -152,18 +152,31 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-  <script>
+<script>
   $(document).ready(function() {
     $(".button").hover(function() {
-      $(this).find(".nom").css("display", "inline-block");
-      $(this).find(".id").css("display", "none");
+     
+        if($(window).width()<=992){
+            
+            $(this).find(".id").css("display", "inline-block");
+        }else{
+            $(this).find(".nom").css("display", "inline-block");
+            $(this).find(".id").css("display", "none"); 
+        }
     }, function() {
-      $(this).find(".nom").css("display", "none");
-      $(this).find(".id").css("display", "inline-block");
+        if($(window).width()<=725){
+            $(this).find(".nom").css("display", "none");
+            $(this).find(".id").css("display", "inline-block");
+        }else{
+            $(this).find(".nom").css("display", "none");
+            $(this).find(".id").css("display", "inline-block"); 
+        }
+      
     });
 
   })
   </script>
+  
   <script>
   $(document).ready(function() {
 
