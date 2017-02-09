@@ -4,11 +4,6 @@
    dataType: 'json',
    success: function (code_html, statut, data) {
     
-      //BURGER MENU EXPAND
-     $(".menu-collapsed").click(function () {
-       $(this).toggleClass("menu-expanded");
-     });
-    
      var data = data.responseJSON;
      console.log("hhh" + data.projet.length);
 
