@@ -1,0 +1,211 @@
+{
+  "projet": [{
+			"id": "1",
+			"nom": "CFCMA",
+			"mandat": "Améliorer la présentation web du Centre de formation et de consultation en métiers d’art - Cégep Limoilou (CFCMA) pour inspirer les étudiants potentiels, en plus de répondre à leurs questions et les diriger vers les bonnes ressources.",
+			"site": "http://www.metierdart.com",
+			"img": "img/projet/metierart_desktop.png",
+			"imgm": "img/projet/metierart_mobile.png",
+			"date": "été 2016"
+
+		}, {
+			"id": "2",
+			"nom": "Scouts de Ste-Ursule",
+			"mandat": "Effectuer la refonte du site web du 75e groupe Scouts de St-Ursule dont les objectifs principaux sont de faire le recrutement des bénévoles et des futurs scouts, en plus de faire connaître le domaine de Bourg-Louis.",
+			"site": "http://scouts75.org/",
+			"img": "img/projet/scout_desktop.png",
+			"imgm": "img/projet/scout_mobile.png",
+			"date": "été 2016"
+
+		}, {
+			"id": "3",
+			"nom": "Nouvothé",
+			"mandat": "Faire la promotion d’un objet connecté en développement par plusieurs départements du Cégep Limoilou par la conception, le branding et l’intégration d’un site web visant à faire vivre l’expérience du produit et ce, de manière interactive.",
+            "site": "http://mlimoilou.ca/nouvothe", 
+			"img": "img/projet/nouvothe-desktop.png",
+			"imgm": "img/projet/nouvothe_mobile.png",
+			"date": "2016"
+
+		}, {
+			"id": "4",
+			"nom": "APRCL - phase 1",
+			"mandat": "Créer le site web de l’Association des Personnes Retraitées du Cégep Limoilou et y proposer une navigation conviviale: simple, intuitive et favorisant les échanges entre les membres qui sont à la retraite.",
+			"site": "http://aprcl-limoilou.com/",
+			"img": "img/projet/aprcl1_desktop.png",
+			"imgm": "img/projet/aprcl1_mobile.png",
+			"date": "2016"
+
+		}
+
+
+
+	],
+  "eleve": [{
+    "id": "1",
+    "nom": "Laura Morales",
+    "domaine": "Chargée de projet",
+    "img": "img/eleve/laura.png",
+    "projet": ["CFCMA"],
+    "url": "https://lavickymop.github.io/portfolio/"
+
+	}, {
+    "id": "2",
+    "nom": "Raven Boulanger",
+    "domaine": "Directeur artistique ",
+    "img": "img/eleve/raven.png",
+    "projet": ["CFCMA"],
+    "url": "http://ravenboulanger.com/"
+
+	}, {
+    "id": "3",
+    "nom": "Olga Ramirez",
+    "domaine": "Intégration et design web ",
+    "img": "img/eleve/olga.png",
+    "projet": ["CFCMA"],
+    "url": "https://olgaramirez.github.io/ramirez_portfolio/"
+
+	}, {
+    "id": "4",
+    "nom": "Audrick Roy",
+    "domaine": "Intégration web ",
+    "img": "img/eleve/audrick.png",
+    "projet": ["CFCMA"],
+    "url": "http://ca.linkedin.com/in/audrick-roy-221516121/fr"
+
+	}, {
+    "id": "5",
+    "nom": "Simon Roy-Michaud",
+    "domaine": "Production de médias",
+    "img": "img/eleve/simon.png",
+    "projet": ["CFCMA"],
+    "url": "http://ca.linkedin.com/in/simon-roy-michaud-642b55128/fr"
+
+	}, {
+    "id": "6",
+    "nom": "Simon-Olivier Baribeau Portelance",
+    "domaine": "Production de médias",
+    "img": "img/eleve/simono.png",
+    "projet": ["Scouts de Ste-Ursule"],
+    "url": "http://ca.linkedin.com/in/simon-olivier-baribeau-a75a6247"
+
+	}, {
+    "id": "7",
+    "nom": "Philippe Bourgeois",
+    "domaine": "UX/UI, assistant chargé de projet",
+    "img": "img/eleve/philb.png",
+    "projet": ["Scouts de Ste-Ursule"],
+    "url": "http://ca.linkedin.com/in/philippe-bourgeois-698b55128"
+
+	}, {
+    "id": "8",
+    "nom": "Jordane Garnier",
+    "domaine": "Design graphique (conception)",
+    "img": "img/eleve/jordane.png",
+    "projet": ["Scouts de Ste-Ursule"],
+    "url": "https://www.dropbox.com/s/bqicfsnz300tn1d/Jordane%20Garnier%20portfolio.pdf?dl=0"
+
+	}, {
+    "id": "9",
+    "nom": "Léane Mei Dostie-Chalifour",
+    "domaine": "Design graphique (illustration)",
+    "img": "img/eleve/leane.png",
+    "projet": ["Scouts de Ste-Ursule"],
+    "url": "https://www.dropbox.com/s/vz34c6nvspmyxzp/L%C3%A9ane%20Mei%20Dostie-Chalifour%20portfolio.pdf?dl=0"
+
+	}, {
+    "id": "10",
+    "nom": " Alexandre Bélair-Rouillard",
+    "domaine": "Intégration web",
+    "img": "img/eleve/alex.png",
+    "projet": ["Scouts de Ste-Ursule"],
+    "url": "https://rouillarda.github.io/mon_portfolio/belair-rouillard_portfolio/"
+
+	}, {
+    "id": "11",
+    "nom": "Thomas Lepage",
+    "domaine": "Intégration web",
+    "img": "img/eleve/thomas.png",
+    "projet": ["Scouts de Ste-Ursule"],
+    "url": "http://ca.linkedin.com/in/thomas-lepage/fr"
+
+	}, {
+    "id": "12",
+    "nom": "Mathieu Roy",
+    "domaine": "Chargé de projet:",
+    "img": "img/eleve/mathieu.png",
+    "projet": ["Nouvothé"],
+    "url": "http://ca.linkedin.com/in/mathieuroymba"
+
+	}, {
+    "id": "13",
+    "nom": "Guillaume Bernier",
+    "domaine": "Directeur artistique, photos/vidéo",
+    "img": "img/eleve/guillaume.png",
+    "projet": ["Nouvothé"],
+    "url": "http://www.burnstudio.ca/"
+
+	}, {
+    "id": "14",
+    "nom": "Yannick D’Amours",
+    "domaine": "Designer web",
+    "img": "img/eleve/yannick.png",
+    "projet": ["Nouvothé"],
+    "url": "https://yandamours.github.io/portfolio/"
+
+	}, {
+    "id": "15",
+    "nom": "Meddy Makanga",
+    "domaine": "Intégration web",
+    "img": "img/eleve/meddy.png",
+    "projet": ["Nouvothé"],
+    "url": "http://ca.linkedin.com/in/meddy-makanga-16b929114"
+
+	}, {
+    "id": "16",
+    "nom": "Gabriel Gagnon",
+    "domaine": "Intégration web",
+    "img": "img/eleve/empty.png",
+    "projet": ["Nouvothé"],
+    "url": "http://ggagnon.me/"
+
+	}, {
+    "id": "17",
+    "nom": "Sandra Lévesque",
+    "domaine": "Chargée de projet",
+    "img": "img/eleve/empty.png",
+    "projet": ["APRCL - phase 1"]
+
+	}, {
+    "id": "18",
+    "nom": "Philippe Lamarre",
+    "domaine": "production de médias",
+    "img": "img/eleve/phill.png",
+    "projet": ["APRCL - phase 1"],
+    "url": "http://quebecnightlife.byethost6.com/portfolio/?i=1"
+
+	}, {
+    "id": "19",
+    "nom": "Nancy Carol-Harrison",
+    "domaine": "Directeur artistique",
+    "img": "img/eleve/nancy.png",
+    "projet": ["APRCL - phase 1"],
+    "url": "https://nancy999harrison.github.io/nancycarolharrison_portfolio/"
+
+	}, {
+    "id": "20",
+    "nom": "Alain Jr Beaudry",
+    "domaine": "Intégration web",
+    "img": "img/eleve/alain.png",
+    "projet": ["APRCL - phase 1"],
+    "url": "http://ca.linkedin.com/in/alain-jr-beaudry-39b1b4129/fr"
+
+	}, {
+    "id": "21",
+    "nom": "Maude Laperrière",
+    "domaine": "Intégration web",
+    "img": "img/eleve/maude.png",
+    "projet": ["APRCL - phase 1"],
+    "url": "http://ca.linkedin.com/in/maude-laperri%C3%A8re-22504bbb"
+
+	}]
+}

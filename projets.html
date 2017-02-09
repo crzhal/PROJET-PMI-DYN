@@ -1,0 +1,204 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>PROJET_PMI</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/docs.theme.min.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/projets.css">
+  <link rel="stylesheet" href="css/desc.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <style>
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="changeDeSlide">
+    <div class="menu-collapsed">
+      <div class="bar"></div>
+      <nav class="burgernav">
+        <ul class="burgernav_expanded">
+          <li><a href="projets.html">PROJETS</a></li>
+          <li><a href="programme.html">PROGRAMME</a></li>
+          <li><a href="stage.html">STAGES</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="navheader">PROJETS</h1>
+    <div class="liste_projet">
+    </div>
+  </div>
+  <div id="owl-example" class="owl-carousel">
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+
+  });
+  </script>
+  <script>
+  $.ajax({
+    url: 'eleve.json',
+    type: 'get',
+    dataType: 'json',
+    success: function(code_html, statut, data) {
+      var data = data.responseJSON
+      console.log("hhh" + data.projet.length);
+
+
+      var url = $(location).attr('href');
+      var id = url.substring(url.lastIndexOf('#') + 1);
+
+
+      for (var i = 0; i <= data.projet.length - 1; i++) {
+
+        var id_unique = "nav-hover" + data.projet[i].id;
+
+        //					console.log("i" + i);
+        //					console.log("id" + data.projet[i].id);
+        //					console.log("desc" + data.projet[i].mandat);
+
+        $(".liste_projet").append(
+          "<a class='button secondary url projets-nav' id='nav-hover" + data.projet[i].id + "' href='#" + data.projet[i].id + "'><span class='id'>" + data.projet[i].id + "</span><span class='nom'>" + data.projet[i].nom + "</span></a>"
+
+        )
+
+
+        $("#owl-example").append(
+          "<div class='item disable-owl-swipe' data-hash='" + data.projet[i].id + "'>" +
+          "<div class='test1'>" +
+          "<div class='desc desc-collapsed text-center'>" +
+          "<div class='desc-content'>" +
+          "<h2 class='desc-h1' ><span class='description'>DESCRIPTION</span><span class='nom_projet'>" + data.projet[i].nom + "</span></h2>" +
+          "<i class='fa fa-angle-double-down rotate' aria-hidden='true'></i><br>" +
+          "<a href='" + data.projet[i].site + "' target='blank' title='liens vers le site'><i class='fa fa-link' aria-hidden='true'></i></a><br><br>" +
+          "<p class='desc-text'>" + data.projet[i].mandat + "</p>" +
+          "<h2 class='h22'>ÉQUIPE</h2>" +
+
+          "<div class='team team" + data.projet[i].id + "'>" +
+
+          "</div>" +
+          "</div>" +
+          "</div>" +
+
+
+          "<div class='hell-div'>" +
+          "<img class='hell desktop' src='"+data.projet[i].img+"' alt=''>"+
+          "<img class='hell mobile' src='"+data.projet[i].imgm+"' alt=''>"+
+          "</div>" +
+          "</div>"
+        )
+
+
+
+
+        for (var h = 0; h <= data.eleve.length - 1; h++) {
+          for (var j = 0; j <= data.eleve[h].projet.length - 1; j++) {
+
+
+            if (data.projet[i].nom == data.eleve[h].projet[j]) {
+              console.log(data.projet[i].nom + " ...  " + data.eleve[h].projet[j])
+              $(".team" + data.projet[i].id).append(
+                "<div class='devs'>" +
+                "<a href='" + data.eleve[h].url + "' target='blank' >" +
+                "<img class='team-pics' src='" + data.eleve[h].img + "' alt=''>" +
+                "<h3 class='team-names'>" + data.eleve[h].nom + "</h3>" +
+                "<p class='team-titles'>" + data.eleve[h].domaine + "</p>" +
+                "</a>" +
+                "</div>"
+              )
+
+            }
+
+
+          }
+        }
+
+
+      }
+
+
+
+
+
+    },
+
+    error: function(resultat, statut, erreur) {
+      console.log(resultat);
+    },
+
+    complete: function(resultat, statut) {
+      console.log(statut);
+    }
+
+  });
+  </script>
+  <script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+  $(document).ready(function() {
+    $(".button").hover(function() {
+      $(this).find(".nom").css("display", "inline-block");
+      $(this).find(".id").css("display", "none");
+    }, function() {
+      $(this).find(".nom").css("display", "none");
+      $(this).find(".id").css("display", "inline-block");
+    });
+
+  })
+  </script>
+  <script>
+  $(document).ready(function() {
+
+    var nom_vue = 0;
+
+    $(".desc-h1").click(function() {
+
+      if (nom_vue == 0) {
+
+
+        $("span.description").css("display", "none");
+        $("span.nom_projet").css("display", "inline-block");
+        nom_vue = 1
+      } else {
+        $("span.description").css("display", "inline-block");
+        $("span.nom_projet").css("display", "none");
+        nom_vue = 0
+      }
+    });
+     $(window).resize(function(){
+        if($(window).width()<=725 ){
+            console.log("if");
+            $(".mobile").css("display", "inline !important");
+            $(".desktop").css("display", "none !important");
+        }else{
+            console.log("else");
+              $(".mobile").css("display", "inline !important");
+            $(".desktop").css("display", "none !important");
+        }
+    });
+   
+  });
+  
+  </script>
+
+</body>
+
+</html>
