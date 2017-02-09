@@ -1,73 +1,73 @@
 {
   "projet": [{
-			"id": "1",
-			"nom": "CFCMA",
-			"mandat": "Améliorer la présentation web du Centre de formation et de consultation en métiers d’art - Cégep Limoilou (CFCMA) pour inspirer les étudiants potentiels, en plus de répondre à leurs questions et les diriger vers les bonnes ressources.",
-			"site": "http://www.metierdart.com",
-			"img": "img/projet/metierart_desktop.png",
-			"imgm": "img/projet/metierart_mobile.png",
-			"date": "été 2016"
+      "id": "1",
+      "nom": "CFCMA",
+      "mandat": "Améliorer la présentation web du Centre de formation et de consultation en métiers d’art - Cégep Limoilou (CFCMA) pour inspirer les étudiants potentiels, en plus de répondre à leurs questions et les diriger vers les bonnes ressources.",
+      "site": "http://www.metierdart.com",
+      "img": "img/projet/metierart_desktop.png",
+      "imgm": "img/projet/metierart_mobile.png",
+      "date": "été 2016"
 
 		}, {
-			"id": "2",
-			"nom": "Scouts Ste-Ursule",
-			"mandat": "Effectuer la refonte du site web du 75e groupe Scouts de St-Ursule dont les objectifs principaux sont de faire le recrutement des bénévoles et des futurs scouts, en plus de faire connaître le domaine de Bourg-Louis.",
-			"site": "http://scouts75.org/",
-			"img": "img/projet/scout_desktop.png",
-			"imgm": "img/projet/scout_mobile.png",
-			"date": "été 2016"
+      "id": "2",
+      "nom": "Scouts de Ste-Ursule",
+      "mandat": "Effectuer la refonte du site web du 75e groupe Scouts de St-Ursule dont les objectifs principaux sont de faire le recrutement des bénévoles et des futurs scouts, en plus de faire connaître le domaine de Bourg-Louis.",
+      "site": "http://scouts75.org/",
+      "img": "img/projet/scout_desktop.png",
+      "imgm": "img/projet/scout_mobile.png",
+      "date": "été 2016"
 
 		}, {
-			"id": "3",
-			"nom": "Nouvothé",
-			"mandat": "Faire la promotion d’un objet connecté en développement par plusieurs départements du Cégep Limoilou par la conception, le branding et l’intégration d’un site web visant à faire vivre l’expérience du produit et ce, de manière interactive.",
-            "site": "http://mlimoilou.ca/nouvothe", 
-			"img": "img/projet/nouvothe_desktop.png",
-			"imgm": "img/projet/nouvothe_mobile.png",
-			"date": "2016"
+      "id": "3",
+      "nom": "Nouvothé",
+      "mandat": "Faire la promotion d’un objet connecté en développement par plusieurs départements du Cégep Limoilou par la conception, le branding et l’intégration d’un site web visant à faire vivre l’expérience du produit et ce, de manière interactive.",
+      "site": "http://mlimoilou.ca/nouvothe",
+      "img": "img/projet/nouvothe_desktop.png",
+      "imgm": "img/projet/nouvothe_mobile.png",
+      "date": "2016"
 
 		},
-         {
-             
-        "id": "4",
-            "nom": "SEECL",
-            "mandat": "Dynamiser le site pour le Syndicat des Enseignantes et Enseignants du Cégep Limoilou afin de réorganiser l’information, et ainsi mieux présenter la mission du syndicat, les services et la communication des activités pour rejoindre une plus grande proportion de membres.",
-            "site":"http://seecl.qc.ca/",
-            "img": "img/projet/seecl_desktop.png",
-            "imgm": "img/projet/seecl_mobile.png",
-            "date": "2016"
+    {
+
+      "id": "4",
+      "nom": "SEECL",
+      "mandat": "Dynamiser le site pour le Syndicat des Enseignantes et Enseignants du Cégep Limoilou afin de réorganiser l’information, et ainsi mieux présenter la mission du syndicat, les services et la communication des activités pour rejoindre une plus grande proportion de membres.",
+      "site": "http://seecl.qc.ca/",
+      "img": "img/projet/seecl_desktop.png",
+      "imgm": "img/projet/seecl_mobile.png",
+      "date": "2016"
 
 	   },
-        {
-            "id": "5",
-            "nom": "Dis-moi où?",
-            "mandat": "Effectuer la phase 2 de l’application web “Dis-moi où?” qui a pour but d’orienter toute personne désirant trouver un local précis dans le Cégep Limoilou, en améliorant les fonctions actuelles ainsi que d’autres comme un trajet en images 360 degrés, une légende et une amélioration du visuel.",
-            "site":"www.mlimoilou.ca/dismoiou",
-            "img": "img/projet/dismoiou_desktop.png",
-            "imgm": "img/projet/dismoiou_mobile.png",
-            "date": "2016"
+    {
+      "id": "5",
+      "nom": "Dis-moi où?",
+      "mandat": "Effectuer la phase 2 de l’application web “Dis-moi où?” qui a pour but d’orienter toute personne désirant trouver un local précis dans le Cégep Limoilou, en améliorant les fonctions actuelles ainsi que d’autres comme un trajet en images 360 degrés, une légende et une amélioration du visuel.",
+      "site": "http://www.mlimoilou.ca/dismoiou",
+      "img": "img/projet/dismoiou_desktop.png",
+      "imgm": "img/projet/dismoiou_mobile.png",
+      "date": "2016"
 
 	   },
-        {
-            "id": "6",
-            "nom": "APRCL - phase 2",
-            "mandat": " Favoriser l’interaction entre les membres et administrateurs de l’Association des Personnes Retraitées du Cégep Limoilou, tout en communiquant efficacement l’information pertinente aux membres et futurs membres de l’APRCL.",
-            "site":"http://aprcl.cegeplimoilou.ca/",
-            "img": "img/projet/aprcl2_desktop.png",
-            "imgm": "img/projet/aprcl2_mobile.png",
-            "date": "2016"
+    {
+      "id": "6",
+      "nom": "APRCL",
+      "mandat": " Favoriser l’interaction entre les membres et administrateurs de l’Association des Personnes Retraitées du Cégep Limoilou, tout en communiquant efficacement l’information pertinente aux membres et futurs membres de l’APRCL.",
+      "site": "http://aprcl.cegeplimoilou.ca/",
+      "img": "img/projet/aprcl2_desktop.png",
+      "imgm": "img/projet/aprcl2_mobile.png",
+      "date": "2016"
 
 	   },
-        {
-            "id": "7",
-            "nom": "Portfolio PMI",
-            "mandat": "Montrer la valeur ajoutée du programme PMI aux futurs étudiants autant qu’aux employeurs potentiels: de réels projets clients, une dynamique d’équipe, la multidisciplinarité des cours ainsi que l’offre de stages en entreprises.",
-            "site":"http://aprcl.cegeplimoilou.ca/",
-            "img": "img/projet/pmi_desktop.png",
-            "imgm": "img/projet/pmi_mobile.png",
-            "date": "2016"
+    {
+      "id": "7",
+      "nom": "Portfolio PMI",
+      "mandat": "Montrer la valeur ajoutée du programme PMI aux futurs étudiants autant qu’aux employeurs potentiels: de réels projets clients, une dynamique d’équipe, la multidisciplinarité des cours ainsi que l’offre de stages en entreprises.",
+      "site": "http://aprcl.cegeplimoilou.ca/",
+      "img": "img/projet/pmi_desktop.png",
+      "imgm": "img/projet/pmi_mobile.png",
+      "date": "2016"
 
-	   }     
+	   }
 
 
 
@@ -77,7 +77,7 @@
     "nom": "Laura Morales",
     "domaine": "Chargée de projet",
     "img": "img/eleve/laura.png",
-    "projet": ["CFCMA","SEECL"],
+    "projet": ["CFCMA", "SEECL"],
     "url": "https://lavickymop.github.io/portfolio/"
 
 	}, {
@@ -85,7 +85,7 @@
     "nom": "Raven Boulanger",
     "domaine": "Directeur artistique ",
     "img": "img/eleve/raven.png",
-    "projet": ["CFCMA"],
+    "projet": ["CFCMA", "SEECL"],
     "url": "http://ravenboulanger.com/"
 
 	}, {
@@ -93,7 +93,7 @@
     "nom": "Olga Ramirez",
     "domaine": "Intégration et design web ",
     "img": "img/eleve/olga.png",
-    "projet": ["CFCMA"],
+    "projet": ["CFCMA", "APRCL"],
     "url": "https://olgaramirez.github.io/ramirez_portfolio/"
 
 	}, {
@@ -101,7 +101,7 @@
     "nom": "Audrick Roy",
     "domaine": "Intégration web ",
     "img": "img/eleve/audrick.png",
-    "projet": ["CFCMA"],
+    "projet": ["CFCMA", "Dis-moi où?"],
     "url": "http://ca.linkedin.com/in/audrick-roy-221516121/fr"
 
 	}, {
@@ -109,7 +109,7 @@
     "nom": "Simon Roy-Michaud",
     "domaine": "Production de médias",
     "img": "img/eleve/simon.png",
-    "projet": ["CFCMA"],
+    "projet": ["CFCMA", "APRCL"],
     "url": "http://ca.linkedin.com/in/simon-roy-michaud-642b55128/fr"
 
 	}, {
@@ -117,7 +117,7 @@
     "nom": "Simon-Olivier Baribeau",
     "domaine": "Chargé de projet, photos/vidéo",
     "img": "img/eleve/simono.png",
-    "projet": ["Scouts de Ste-Ursule"],
+    "projet": ["Scouts de Ste-Ursule", "APRCL"],
     "url": "http://ca.linkedin.com/in/simon-olivier-baribeau-a75a6247"
 
 	}, {
@@ -125,7 +125,7 @@
     "nom": "Philippe Bourgeois",
     "domaine": "UX/UI, assistant chargé de projet",
     "img": "img/eleve/philb.png",
-    "projet": ["Scouts de Ste-Ursule"],
+    "projet": ["Scouts de Ste-Ursule", "SEECL"],
     "url": "http://ca.linkedin.com/in/philippe-bourgeois-698b55128"
 
 	}, {
@@ -133,7 +133,7 @@
     "nom": "Jordane Garnier",
     "domaine": "Design graphique (conception)",
     "img": "img/eleve/jordane.png",
-    "projet": ["Scouts de Ste-Ursule"],
+    "projet": ["Scouts de Ste-Ursule", "Portfolio PMI"],
     "url": "https://www.dropbox.com/s/bqicfsnz300tn1d/Jordane%20Garnier%20portfolio.pdf?dl=0"
 
 	}, {
@@ -141,7 +141,7 @@
     "nom": "Léane Mei Dostie-Chalifour",
     "domaine": "Design graphique (illustration)",
     "img": "img/eleve/leane.png",
-    "projet": ["Scouts de Ste-Ursule"],
+    "projet": ["Scouts de Ste-Ursule", "Portfolio PMI"],
     "url": "https://www.dropbox.com/s/vz34c6nvspmyxzp/L%C3%A9ane%20Mei%20Dostie-Chalifour%20portfolio.pdf?dl=0"
 
 	}, {
@@ -149,7 +149,7 @@
     "nom": " Alexandre Bélair-Rouillard",
     "domaine": "Intégration web",
     "img": "img/eleve/alex.png",
-    "projet": ["Scouts de Ste-Ursule"],
+    "projet": ["Scouts de Ste-Ursule", "Portfolio PMI"],
     "url": "https://rouillarda.github.io/mon_portfolio/belair-rouillard_portfolio/"
 
 	}, {
@@ -157,7 +157,7 @@
     "nom": "Thomas Lepage",
     "domaine": "Intégration web",
     "img": "img/eleve/thomas.png",
-    "projet": ["Scouts de Ste-Ursule"],
+    "projet": ["Scouts de Ste-Ursule", "Dis-moi où?"],
     "url": "http://ca.linkedin.com/in/thomas-lepage/fr"
 
 	}, {
@@ -165,7 +165,7 @@
     "nom": "Mathieu Roy",
     "domaine": "Chargé de projet",
     "img": "img/eleve/mathieu.png",
-    "projet": ["Nouvothé"],
+    "projet": ["Nouvothé", "Portfolio PMI"],
     "url": "http://ca.linkedin.com/in/mathieuroymba"
 
 	}, {
@@ -173,7 +173,7 @@
     "nom": "Guillaume Bernier",
     "domaine": "Directeur artistique, photos/vidéo",
     "img": "img/eleve/guillaume.png",
-    "projet": ["Nouvothé"],
+    "projet": ["Nouvothé", "Dis-moi où?"],
     "url": "http://www.burnstudio.ca/"
 
 	}, {
@@ -181,7 +181,7 @@
     "nom": "Yannick D’Amours",
     "domaine": "Designer web",
     "img": "img/eleve/yannick.png",
-    "projet": ["Nouvothé"],
+    "projet": ["Nouvothé", "SEECL"],
     "url": "https://yandamours.github.io/portfolio/"
 
 	}, {
@@ -189,7 +189,7 @@
     "nom": "Meddy Makanga",
     "domaine": "Intégration web",
     "img": "img/eleve/meddy.png",
-    "projet": ["Nouvothé"],
+    "projet": ["Nouvothé", "Portfolio PMI"],
     "url": "http://ca.linkedin.com/in/meddy-makanga-16b929114"
 
 	}, {
@@ -197,7 +197,7 @@
     "nom": "Gabriel Gagnon",
     "domaine": "Intégration web",
     "img": "img/eleve/empty.png",
-    "projet": ["Nouvothé"],
+    "projet": ["Nouvothé", "SEECL"],
     "url": "http://ggagnon.me/"
 
 	}, {
@@ -210,17 +210,17 @@
 	}, {
     "id": "18",
     "nom": "Philippe Lamarre",
-    "domaine": "production de médias",
+    "domaine": "Production de médias",
     "img": "img/eleve/phill.png",
-    "projet": ["APRCL - phase 1"],
+    "projet": ["APRCL - phase 1", "APRCL"],
     "url": "http://quebecnightlife.byethost6.com/portfolio/?i=1"
 
 	}, {
     "id": "19",
-    "nom": "Nancy Carol-Harrison",
+    "nom": "Nancy Carol Harrison",
     "domaine": "Directeur artistique",
     "img": "img/eleve/nancy.png",
-    "projet": ["APRCL - phase 1"],
+    "projet": ["APRCL - phase 1", "Dis-moi où?"],
     "url": "https://nancy999harrison.github.io/nancycarolharrison_portfolio/"
 
 	}, {
@@ -228,7 +228,7 @@
     "nom": "Alain Jr Beaudry",
     "domaine": "Intégration web",
     "img": "img/eleve/alain.png",
-    "projet": ["APRCL - phase 1"],
+    "projet": ["APRCL - phase 1", "Portfolio PMI"],
     "url": "http://ca.linkedin.com/in/alain-jr-beaudry-39b1b4129/fr"
 
 	}, {
@@ -236,7 +236,7 @@
     "nom": "Maude Laperrière",
     "domaine": "Intégration web",
     "img": "img/eleve/maude.png",
-    "projet": ["APRCL - phase 1"],
+    "projet": ["APRCL - phase 1", "Dis-moi où?"],
     "url": "http://ca.linkedin.com/in/maude-laperri%C3%A8re-22504bbb"
 
 	}]

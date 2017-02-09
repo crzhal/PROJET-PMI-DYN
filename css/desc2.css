@@ -3,7 +3,7 @@ h2 {
 }
 
 .h22 {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .fa-angle-double-down {
@@ -21,7 +21,7 @@ h2 {
 }
 
 .desc-text {
-  font-size:13px !important;
+  font-size: 13px !important;
   margin-bottom: 35px;
 }
 
@@ -90,7 +90,7 @@ h2 {
 }
 
 .desc-stage {
-  right: 23%;
+  /*  right: 23%;*/
 }
 
 .desc-projets {
@@ -102,9 +102,10 @@ h2 {
   position: absolute !important;
   z-index: 999;
   top: 0;
+  right: 0;
   background-color: #1e1d1c !important;
-  width: 270px !important;
-  height: 50px !important;
+  width: 250px !important;
+  height: 50px;
   -webkit-transition: 0.4s !important;
   -moz-transition: 0.4s !important;
   -ms-transition: 0.4s !important;
@@ -117,7 +118,7 @@ h2 {
   position: absolute !important;
   z-index: 999;
   background-color: #1e1d1c !important;
-  width: 270px !important;
+  width: 250px !important;
   height: 100vh !important;
   overflow: auto !important;
   -webkit-transition: 0.4s !important;
@@ -132,7 +133,7 @@ h2 {
 }
 
 .desc-content {
-  width:220px
+  width: 220px
 }
 
 
@@ -143,10 +144,33 @@ h2 {
     height: 60px !important;
   }
   .team-pics {
-    width: 45px !important;
+    width: 80px !important;
     height: auto;
   }
-  
+  .desc-collapsed {
+    right: 15%;
+    width: 350px !important;
+    height: 70px;
+  }
+  .desc-expanded {
+    width: 350px !important;
+  }
+  .desc-content {
+    width: 300px
+  }
+  .desc > .desc-content-projets > h2 {
+    font-size: 30px;
+  }
+  .desc > .desc-content > p {
+    font-size: 15px !important;
+    margin-top: 40px;
+  }
+  .team-names {
+    font-size: 30px;
+  }
+  .team-titles {
+    font-size: 16px;
+  }
 }
 
 
@@ -155,7 +179,7 @@ h2 {
 @media screen and (min-width: 992px) {
   .desc-collapsed {
     width: 385px !important;
-    height: 85px !important;
+    height: 90px;
   }
   .desc-expanded {
     width: 385px !important;
@@ -164,17 +188,16 @@ h2 {
   .desc-content {
     width: 320px;
   }
-
   .desc-text {
     font-size: 14px !important;
   }
-
   .devs {
     height: 100px !important;
     width: auto;
   }
   .desc > .desc-content > p {
     font-size: 16px;
+    margin-top: 0 !important;
   }
   .desc > .desc-content > h2 {
     font-size: 30pt;
