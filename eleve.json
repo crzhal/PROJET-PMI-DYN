@@ -1,39 +1,39 @@
 {
   "projet": [{
-			"id": "1",
-			"nom": "CFCMA",
-			"mandat": "Améliorer la présentation web du Centre de formation et de consultation en métiers d’art - Cégep Limoilou (CFCMA) pour inspirer les étudiants potentiels, en plus de répondre à leurs questions et les diriger vers les bonnes ressources.",
-			"site": "http://www.metierdart.com",
-			"img": "img/projet/metierart_desktop.png",
-			"imgm": "img/projet/metierart_mobile.png",
-			"date": "été 2016"
+      "id": "1",
+      "nom": "CFCMA",
+      "mandat": "Améliorer la présentation web du Centre de formation et de consultation en métiers d’art - Cégep Limoilou (CFCMA) pour inspirer les étudiants potentiels, en plus de répondre à leurs questions et les diriger vers les bonnes ressources.",
+      "site": "http://www.metierdart.com",
+      "img": "img/projet/metierart_desktop.png",
+      "imgm": "img/projet/metierart_mobile.png",
+      "date": "été 2016"
 
 		}, {
-			"id": "2",
-			"nom": "Scouts de Ste-Ursule",
-			"mandat": "Effectuer la refonte du site web du 75e groupe Scouts de St-Ursule dont les objectifs principaux sont de faire le recrutement des bénévoles et des futurs scouts, en plus de faire connaître le domaine de Bourg-Louis.",
-			"site": "http://scouts75.org/",
-			"img": "img/projet/scout_desktop.png",
-			"imgm": "img/projet/scout_mobile.png",
-			"date": "été 2016"
+      "id": "2",
+      "nom": "Scouts de Ste-Ursule",
+      "mandat": "Effectuer la refonte du site web du 75e groupe Scouts de St-Ursule dont les objectifs principaux sont de faire le recrutement des bénévoles et des futurs scouts, en plus de faire connaître le domaine de Bourg-Louis.",
+      "site": "http://scouts75.org/",
+      "img": "img/projet/scout_desktop.png",
+      "imgm": "img/projet/scout_mobile.png",
+      "date": "été 2016"
 
 		}, {
-			"id": "3",
-			"nom": "Nouvothé",
-			"mandat": "Faire la promotion d’un objet connecté en développement par plusieurs départements du Cégep Limoilou par la conception, le branding et l’intégration d’un site web visant à faire vivre l’expérience du produit et ce, de manière interactive.",
-            "site": "http://mlimoilou.ca/nouvothe", 
-			"img": "img/projet/nouvothe-desktop.png",
-			"imgm": "img/projet/nouvothe_mobile.png",
-			"date": "2016"
+      "id": "3",
+      "nom": "Nouvothé",
+      "mandat": "Faire la promotion d’un objet connecté en développement par plusieurs départements du Cégep Limoilou par la conception, le branding et l’intégration d’un site web visant à faire vivre l’expérience du produit et ce, de manière interactive.",
+      "site": "http://mlimoilou.ca/nouvothe",
+      "img": "img/projet/nouvothe_desktop.png",
+      "imgm": "img/projet/nouvothe_mobile.png",
+      "date": "2016"
 
 		}, {
-			"id": "4",
-			"nom": "APRCL - phase 1",
-			"mandat": "Créer le site web de l’Association des Personnes Retraitées du Cégep Limoilou et y proposer une navigation conviviale: simple, intuitive et favorisant les échanges entre les membres qui sont à la retraite.",
-			"site": "http://aprcl-limoilou.com/",
-			"img": "img/projet/aprcl1_desktop.png",
-			"imgm": "img/projet/aprcl1_mobile.png",
-			"date": "2016"
+      "id": "4",
+      "nom": "APRCL - phase 1",
+      "mandat": "Créer le site web de l’Association des Personnes Retraitées du Cégep Limoilou et y proposer une navigation conviviale: simple, intuitive et favorisant les échanges entre les membres qui sont à la retraite.",
+      "site": "http://aprcl-limoilou.com/",
+      "img": "img/projet/aprcl1_desktop.png",
+      "imgm": "img/projet/aprcl1_mobile.png",
+      "date": "2016"
 
 		}
 
