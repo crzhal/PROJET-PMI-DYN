@@ -1,0 +1,200 @@
+h2 {
+  margin: 0;
+}
+
+.h22 {
+  margin-bottom:20px;
+}
+
+.fa-angle-double-down {
+  margin-left: 48%;
+}
+
+.desc-h1-stage,
+.team-names-stage,
+.fa-stage {
+  color: #8f73ac !important;
+}
+
+.fa-stage {
+  margin-bottom: 20px;
+}
+
+.desc-text {
+  font-size:13px !important;
+  margin-bottom: 35px;
+}
+
+.rotate {
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.rotate.down {
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.desc-stage-h1 {
+  font-family: 'bebas_neueregular';
+  color: #8f73ac;
+}
+
+.desc-content {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.desc > .desc-content-projets > .fa,
+.team-names {
+  color: #22ffbd;
+}
+
+.desc > .desc-content-projets > h2 {
+  font-family: 'bebas_neueregular';
+  color: #22ffbd;
+  font-size: 20px;
+}
+
+.desc > .desc-content > p {
+  color: white;
+  text-align: left;
+  font-size: 10px;
+}
+
+.team-pics {
+  margin-right: 20px;
+  margin-bottom: 0;
+  float: left;
+  width: 50px !important;
+  height: auto !important;
+}
+
+.team-names {
+  font-family: 'bebas_neueregular';
+  font-size: 15px;
+  margin: 0;
+}
+
+.team-titles {
+  color: white;
+  font-size: 10px;
+}
+
+.desc-h1,
+.fa {
+  cursor: pointer;
+}
+
+.desc-stage {
+  right: 23%;
+}
+
+.desc-projets {
+  right: 35%;
+}
+
+.desc-collapsed {
+  overflow: hidden;
+  position: absolute !important;
+  z-index: 999;
+  top: 0;
+  background-color: #1e1d1c !important;
+  width: 270px !important;
+  height: 50px !important;
+  -webkit-transition: 0.4s !important;
+  -moz-transition: 0.4s !important;
+  -ms-transition: 0.4s !important;
+  -o-transition: 0.4s !important;
+  transition: 0.4s !important;
+}
+
+.desc-expanded {
+  overflow: hidden !important;
+  position: absolute !important;
+  z-index: 999;
+  background-color: #1e1d1c !important;
+  width: 270px !important;
+  height: 100vh !important;
+  overflow: auto !important;
+  -webkit-transition: 0.4s !important;
+  -moz-transition: 0.4s !important;
+  -ms-transition: 0.4s !important;
+  -o-transition: 0.4s !important;
+  transition: 0.4s !important;
+}
+
+.team {
+  height: auto !important;
+}
+
+.desc-content {
+  width:220px
+}
+
+
+/*TABLETTE*/
+
+@media screen and (min-width: 768px) {
+  .devs {
+    height: 60px !important;
+  }
+  .team-pics {
+    width: 45px !important;
+    height: auto;
+  }
+  
+}
+
+
+/*LAPTOP*/
+
+@media screen and (min-width: 992px) {
+  .desc-collapsed {
+    width: 385px !important;
+    height: 85px !important;
+  }
+  .desc-expanded {
+    width: 385px !important;
+    height: 100vh !important;
+  }
+  .desc-content {
+    width: 320px;
+  }
+
+  .desc-text {
+    font-size: 14px !important;
+  }
+
+  .devs {
+    height: 100px !important;
+    width: auto;
+  }
+  .desc > .desc-content > p {
+    font-size: 16px;
+  }
+  .desc > .desc-content > h2 {
+    font-size: 30pt;
+  }
+  .desc-content > .fa {
+    font-size: 30px;
+  }
+  .team-pics {
+    width: 75px!important;
+    height: auto !important;
+  }
+  .team-names {
+    font-size: 20px;
+  }
+  .team-titles {
+    font-size: 15px;
+  }
+}
+
+
+/*DESCKTOP*/
+
+@media screen and (min-width: 1200px) {}

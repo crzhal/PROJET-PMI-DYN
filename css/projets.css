@@ -1,0 +1,448 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background-color: #292928;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.rotate {
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.rotate.down {
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
+/*---------------------- BURGER MENU STUFF ------------------------ */
+
+.b-a,
+.bar,
+.bar:before,
+.bar:after {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 30px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(41, 41, 40, 1);
+}
+
+.menu-collapsed {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  position: fixed;
+  top: 10px;
+  left: 9px;
+  height: 36px;
+  width: 36px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menu-collapsed ul {
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+  position: fixed;
+  left: -9000px;
+}
+
+.bar {
+  position: fixed;
+  left: 6%;
+  top: 30px;
+}
+
+.bar:before {
+  top: -8px;
+}
+
+.bar:after {
+  top: 8px;
+}
+
+.b-a-expanded,
+.menu-expanded .bar:before,
+.menu-expanded .bar:after {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  top: -0px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.menu-expanded {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  text-align: center;
+  line-height: 300px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  top: 0;
+  left: 0;
+  background: #292928 url('../img/bg_landing_page.png');
+}
+
+.menu-expanded ul {
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+  position: relative;
+  left: 0;
+  z-index: 20;
+}
+
+.menu-expanded a {
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+  -ms-transition: all .15s;
+  -o-transition: all .15s;
+  transition: all .15s;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 5px;
+  color: #fff;
+}
+
+.menu-expanded .bar {
+  background-color: transparent;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}
+
+.menu-expanded .bar:before {
+  transform: rotate(45deg);
+}
+
+.menu-expanded .bar:after {
+  transform: rotate(-45deg);
+}
+
+
+/*--------------------- /BURGER MENU STUFF ---------------------- */
+
+
+/*---------------------- NAV HOVER EFFECT -----------------------*/
+
+.navheader {
+  display: none;
+}
+
+.button {
+  top: 80px;
+  margin: 0;
+  padding: 0;
+  line-height: 55px;
+  display: block;
+}
+
+.projets-nav {
+  font-family: 'bebas_neueregular' !important;
+  color: #b3b3b3 !important;
+  font-size: 1.5em !important;
+  background-color: white !important;
+  text-decoration: none !important;
+}
+
+.projets-nav:hover {
+  background-color: white !important;
+  color: #292928 !important;
+}
+
+#nav-hover1:hover,
+#nav-hover2:hover,
+#nav-hover3:hover,
+#nav-hover4:hover,
+#nav-hover5:hover,
+#nav-hover6:hover,
+#nav-hover7:hover,
+#nav-hover8:hover {
+  color: #292928;
+}
+
+
+/*-------------------- /NAV HOVER EFFECT ---------------------*/
+
+
+/*----------------------- OWL CAROUSEL ------------------------*/
+
+
+/*A CHECKER*/
+
+.test1 {
+  float: left;
+  width: 80%;
+  height: auto;
+  /*background-color: #282829;*/
+}
+
+
+/*A CHECKER*/
+
+.test2 {
+  float: left;
+  width: 80%;
+  height: auto;
+  /*background-color: #333;*/
+}
+
+.fa-link {
+  color: #b3b3b3 !important;
+  float: left;
+}
+
+
+/*A CHECKER*/
+
+.test3 {
+  float: left;
+  width: 80%;
+  height: auto;
+  /*background-color: grey;*/
+}
+
+.owl-carousel {
+  position: relative;
+  height: 100%;
+}
+
+.owl-carousel div:not(.owl-controls) {
+  height: 100%;
+}
+
+.owl-carousel .owl-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.owl-carousel div.owl--text {
+  position: absolute;
+  bottom: 4em;
+  left: 2em;
+  width: 20em;
+  height: 8em;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.owl-carousel .owl-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.owl-carousel .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  zoom: 1;
+  margin: 0;
+  width: 50px;
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  font-size: .9em;
+  border-radius: 3px;
+  color: #FFF;
+  background: #000;
+  opacity: .6;
+  text-transform: capitalize;
+}
+
+.owl-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 5px;
+}
+
+.owl-carousel .owl-controls .owl-buttons .owl-next {
+  right: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.owl-dots {
+  display: none;
+}
+
+.changeDeSlide {
+  /*overflow-y: auto;*/
+  font-family: 'bebas_neueregular';
+  background-color: #fff;
+  float: left;
+  position: relative;
+  z-index: 30;
+  width: 20%;
+  height: 100%;
+}
+
+
+/*---------------------- /OWL CAROUSEL -----------------------*/
+
+.burgernav_expanded {
+  margin: 0;
+  margin-top: 90px;
+  color: white;
+  font-size: 1.2em;
+  line-height: 125px;
+}
+
+.burgernav_expanded a:hover {
+  color: #22ffbd;
+}
+
+.burgernav_expanded a:link,
+.burgernav_expanded a:visited,
+.burgernav_expanded a:focus,
+.burgernav_expanded a:hover,
+.burgernav_expanded a:active {
+  text-decoration: none !important;
+}
+
+.hell-div {
+  width: 1152px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hell {
+  position: absolute !important;
+  z-index: 50 !important;
+  width: 1152px !important;
+  height: auto !important;
+  left: 40%;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  margin: 0;
+}
+
+.projets-nav span.nom {
+  display: none;
+}
+
+span.nom_projet {
+  display: none;
+}
+
+
+/*TABLETTE*/
+
+@media screen and (min-width: 768px) {
+  .bar {
+    left: 8%;
+  }
+  .projets-nav {
+    font-size: 2.8em !important;
+    line-height: 100px;
+  }
+  .button {
+    top: 100px;
+  }
+  .burgernav_expanded {
+    margin-top: 175px;
+    color: white;
+    font-size: 2em;
+    line-height: 200px;
+  }
+}
+
+
+/*LAPTOP*/
+
+@media screen and (min-width: 992px) {
+  .desc-collapsed {
+    float: right;
+    margin-right: 15%;
+    width: 385px !important;
+    height: 85px !important;
+  }
+  .desc-expanded {
+    width: 385px !important;
+    height: 100vh !important;
+  }
+  .bar {
+    left: 12px;
+  }
+  .navheader {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'bebas_neueregular';
+    font-size: 4.5em;
+  }
+  .desc-collapsed {
+    float: right;
+    margin-right: 15%;
+    width: 385px !important;
+    height: 85px !important;
+  }
+  .desc-expanded {
+    width: 385px !important;
+    height: 100vh !important;
+  }
+  .button {
+    top: -10px;
+  }
+  .projets-nav {
+    line-height: 90px;
+  }
+  .projets-nav span.nom {
+    display: none;
+  }
+   img.mobile{
+        display: none !important;
+    }
+}
+
+
+/*DESCKTOP*/
+
+@media screen and (min-width: 1200px) {
+  .navheader {
+    font-size: 6em;
+  }
+}

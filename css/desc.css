@@ -1,0 +1,181 @@
+body {
+  background-color: #333;
+}
+
+h2 {
+  margin: 0;
+}
+
+.devs {
+  height: 50px !important;
+}
+
+.desc-content {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.desc > .desc-content > .fa,
+.team-names {
+  color: #22ffbd;
+}
+
+.desc > .desc-content > h2 {
+  font-family: 'bebas_neueregular';
+  color: #22ffbd;
+  font-size: 20px;
+}
+
+.desc > .desc-content > p {
+  color: white;
+  text-align: left;
+  font-size: 10px;
+}
+
+.team-pics {
+  float: left;
+  width: 40px !important;
+  height: auto !important;
+}
+
+.team-names {
+  font-family: 'bebas_neueregular';
+  font-size: 15px;
+  margin: 0;
+}
+
+.team-titles {
+  color: white;
+  font-size: 10px;
+}
+
+.desc-collapsed {
+  overflow: hidden;
+  float: right;
+  position: relative;
+  z-index: 99999;
+  background-color: #1e1d1c !important;
+  width: 190px !important;
+  height: 50px !important;
+  margin-right: 33px;
+  cursor: default!important;
+  -webkit-transition: 0.4s !important;
+  -moz-transition: 0.4s !important;
+  -ms-transition: 0.4s !important;
+  -o-transition: 0.4s !important;
+  transition: 0.4s !important;
+}
+
+.desc-expanded {
+  position: relative;
+  z-index: 99999;
+  background-color: #1e1d1c !important;
+  width: 190px !important;
+  height: 100vh !important;
+  overflow: auto !important;
+  -webkit-transition: 0.4s !important;
+  -moz-transition: 0.4s !important;
+  -ms-transition: 0.4s !important;
+  -o-transition: 0.4s !important;
+  transition: 0.4s !important;
+}
+
+.team {
+  height: auto !important;
+}
+
+.team-names {
+  text-align: left;
+  font-size: 12px !important;
+}
+
+.team-titles {
+  text-align: left;
+  font-size: 9px;
+}
+
+.team-pics {
+
+  margin-right:10px;
+}
+
+.h22 {
+  margin-bottom:20px;
+}
+
+.desc-text {
+  margin-bottom:25px;
+
+}
+
+
+/*TABLETTE*/
+
+@media screen and (min-width: 768px) {
+  .devs {
+    height: 70px !important;
+  }
+  .team-pics {
+    width: 45px!important;
+    height: auto !important;
+  }
+  .team-pics {
+    width: 50px !important;
+    height: auto;
+  }
+}
+
+
+/*LAPTOP*/
+
+@media screen and (min-width: 992px) {
+  .desc-collapsed {
+    float: right;
+    margin-right: 15%;
+    width: 385px !important;
+    height: 85px !important;
+  }
+  .desc-expanded {
+    width: 385px !important;
+    height: 100vh !important;
+  }
+  .desc-content {
+    width: 320px;
+  }
+  .devs {
+    height: 100px !important;
+    width: auto;
+  }
+  .desc > .desc-content > p {
+    font-size: 16px;
+  }
+  .desc > .desc-content > h2 {
+    font-size: 30pt;
+  }
+  .desc-content > .fa {
+    font-size: 30px;
+  }
+  .team-pics {
+    width: 70px!important;
+    height: auto !important;
+    margin-right: 20px;
+  }
+  .team-names {
+    font-size: 20px !important;
+  }
+  .team-titles {
+    font-size: 15px;
+  }
+  .fa-link {
+    font-size: 30px !important;
+  }
+  .desc-h1,
+  .fa-angle-double-down {
+    cursor: pointer;
+  }
+}
+
+
+/*DESCKTOP*/
+
+@media screen and (min-width: 1200px) {}

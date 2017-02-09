@@ -1,0 +1,320 @@
+body {
+  background: #fff url('../img/background_blanc.png');
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*---------------------- BURGER MENU STUFF ------------------------ */
+
+.b-a,
+.bar,
+.bar:before,
+.bar:after {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 30px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(41, 41, 40, 1);
+}
+
+.menu-collapsed {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  position: fixed;
+  top: 10px;
+  left: 9px;
+  height: 36px;
+  width: 36px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.menu-collapsed ul {
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+  position: fixed;
+  left: -9000px;
+}
+
+.bar {
+  position: fixed;
+  left: 20px;
+  top: 30px;
+}
+
+.bar:before {
+  top: -8px;
+}
+
+.bar:after {
+  top: 8px;
+}
+
+.b-a-expanded,
+.menu-expanded .bar:before,
+.menu-expanded .bar:after {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  top: -0px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.menu-expanded {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  text-align: center;
+  line-height: 300px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  top: 0;
+  left: 0;
+  background: #292928 url('../img/bg_landing_page.png');
+}
+
+.menu-expanded ul {
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+  position: relative;
+  left: 0;
+  z-index: 20;
+}
+
+.menu-expanded a {
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+  -ms-transition: all .15s;
+  -o-transition: all .15s;
+  transition: all .15s;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 5px;
+  color: #fff;
+}
+
+.menu-expanded .bar {
+  background-color: transparent;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}
+
+.menu-expanded .bar:before {
+  transform: rotate(45deg);
+}
+
+.menu-expanded .bar:after {
+  transform: rotate(-45deg);
+}
+
+.burgernav_expanded {
+  font-family: 'bebas_neueregular';
+  margin: 0;
+  margin-top: 90px;
+  color: white;
+  font-size: 1.2em;
+  line-height: 125px;
+}
+
+.burgernav_expanded a:hover {
+  color: #22ffbd;
+}
+
+.burgernav_expanded a:link,
+.burgernav_expanded a:visited,
+.burgernav_expanded a:focus,
+.burgernav_expanded a:hover,
+.burgernav_expanded a:active {
+  text-decoration: none !important;
+}
+
+
+/*CONTENU*/
+
+.desc {
+  position: absolute;
+  z-index: -9000;
+}
+
+.container h1 {
+  font-family: 'bebas_neueregular';
+  color: #292928;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.container h2 {
+  font-family: 'bebas_neueregular';
+  color: #292928;
+  font-size: 1.1em;
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.container p {
+  font-family: 'ralewaysemibold';
+  color: #292928;
+  font-size: 0.7em;
+}
+
+.vert {
+  color: #1bcc97;
+}
+
+.mauve {
+  color: #8f73ac;
+}
+
+.bleu {
+  color: #42a7d1;
+}
+
+.les-logos {
+  margin-top: 10px !important;
+}
+
+img {
+  width: 75%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+img:hover {
+  -webkit-filter: opacity(60%);
+  /* Safari */
+  filter: opacity(60%);
+}
+
+.btn-link {
+  font-family: 'ralewayregular';
+  font-size: 0.7em;
+  text-decoration: none;
+  color: #292928;
+  border: 1px solid #292928;
+  outline: none;
+  margin-top: -10px;
+}
+
+.btn-link:link,
+.btn-link:visited,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link:active {
+  color: #1bcc97;
+  text-decoration: none;
+  border: 1px solid #1bcc97;
+  outline: none !important;
+}
+
+.team-pics {
+  width:100px !important;
+  height:auto !important;
+}
+
+
+/*TABLETTE*/
+
+@media screen and (min-width: 768px) {
+  .burgernav_expanded {
+    margin-top: 175px;
+    color: white;
+    font-size: 2em;
+    line-height: 200px;
+  }
+  .container h1 {
+    font-size: 4.5em;
+    margin-top: 120px;
+  }
+  .container h2 {
+    font-size: 2.5em;
+    margin-top: 60px;
+  }
+  .container p {
+    font-size: 1.5em;
+    padding: 0 101px 0 101px;
+  }
+  .btn-link {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  .les-logos {
+    margin-top: 30px !important;
+    margin-bottom: 60px;
+  }
+  .btn-link {
+    border: 2px solid #292928;
+  }
+  .btn-link:link,
+  .btn-link:visited,
+  .btn-link:focus,
+  .btn-link:hover,
+  .btn-link:active {
+    border: 2px solid #1bcc97;
+  }
+}
+
+/*LAPTOP*/
+
+@media screen and (min-width: 992px) {
+  .container h1 {
+    font-size: 5em;
+  }
+  .container p {
+    font-size: 1.6em;
+  }
+  .btn-link {
+    font-size: 1.6em;
+    margin-top: 0;
+  }
+  .les-logos {
+    margin-bottom: 40px;
+  }
+  img {
+    width: 85%;
+  }
+}
+
+
+/*DESCKTOP*/
+
+@media screen and (min-width: 1500px) {
+  .btn-link {
+    font-size: 1.6em;
+    /*margin-top: 20px;*/
+  }
+  img {
+    width: 90%;
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,312 @@
+body {
+    background-color: #292928;
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.col-xs-6,
+.col-sm-3,
+.col-xs-12 {
+    margin: 0;
+    padding: 0;
+}
+
+.contenu {
+    padding: 0;
+    height: 29vh;
+}
+
+.contenu h1,
+.contenu h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-family: 'bebas_neueregular';
+    color: #fff;
+    font-size: 1em;
+}
+
+.I p {
+    padding: 20px 10px 0 10px;
+}
+
+.contenu p {
+    display: inline-block;
+    width: 250px;
+    font-family: 'ralewaymedium';
+    color: #fff;
+    font-size: 0.7em;
+    line-height: 15px;
+}
+
+.icone-integration-prog {
+    margin-top: 5px;
+    width: 25%;
+    height: auto;
+}
+
+span {
+    display: block;
+    font-family: 'ralewaymedium';
+    color: #fff;
+    margin-top: 5px;
+    font-size: 0.6em;
+    line-height: 15px;
+    padding: 0 10px 0 10px;
+}
+
+.btn-link {
+    font-family: 'ralewaysemibold';
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+
+.btn-link:link,
+.btn-link:visited,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link:active {
+    color: #fff;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.VI p {
+    margin-top: 5px;
+}
+
+.I,
+.II,
+.III,
+.IV,
+.V,
+.VI {
+    border: 10px solid #22ffbd;
+    background-color: rgba(34, 255, 189, 0.5);
+}
+
+.I {
+    border-bottom: 5px solid #22ffbd;
+}
+
+.II,
+.IV {
+    border-top: 5px solid #22ffbd;
+    border-right: 5px solid #22ffbd;
+    border-bottom: 5px solid #22ffbd;
+}
+
+.III,
+.V {
+    border-top: 5px solid #22ffbd;
+    border-left: 5px solid #22ffbd;
+    border-bottom: 5px solid #22ffbd;
+}
+
+.VI {
+    border-top: 5px solid #22ffbd;
+}
+
+
+/*TABLETTE*/
+
+@media screen and (min-width: 768px) {
+    .contenu {
+        height: 33.33vh;
+    }
+    .contenu h1 {
+        margin-top: 30px;
+        font-size: 2.8em;
+    }
+    .contenu h2 {
+        margin-top: 20px;
+        font-size: 2.1em;
+    }
+    .contenu p {
+        width: 500px;
+        margin-top: 20px;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+    .icone-integration-prog {
+        width: 50%;
+        height: auto;
+        margin-top: 30px;
+    }
+    span {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 20px;
+    }
+    .btn-link {
+        bottom: 20px;
+        right: 25px;
+        font-size: 1.5em;
+    }
+    .VI h2 {
+        margin-top: 35px;
+    }
+    .VI p {
+        margin-top: 30px;
+    }
+    .I,
+    .II,
+    .III,
+    .IV,
+    .V,
+    .VI {
+        border: 20px solid #22ffbd;
+        background-color: rgba(34, 255, 189, 0.5);
+    }
+    .I {
+        border-bottom: 10px solid #22ffbd;
+    }
+    .II,
+    .IV {
+        border-top: 10px solid #22ffbd;
+        border-right: 10px solid #22ffbd;
+        border-bottom: 10px solid #22ffbd;
+    }
+    .III,
+    .V {
+        border-top: 10px solid #22ffbd;
+        border-left: 10px solid #22ffbd;
+        border-bottom: 10px solid #22ffbd;
+    }
+    .VI {
+        border-top: 10px solid #22ffbd;
+    }
+    .III {
+        border-right: 10px solid #22ffbd;
+    }
+    .IV {
+        border-left: 10px solid #22ffbd;
+    }
+}
+
+
+/*LAPTOP*/
+
+@media screen and (min-width: 992px) {
+    .I h1 {
+        font-size: 4.5em;
+    }
+    .icone-integration-prog {
+        width: 80px;
+        height: auto;
+        margin-top: 25px;
+    }
+    .btn-link {
+        bottom: 40px;
+        right: 40px;
+    }
+    /*EFFET DU CONTOUR HOVER*/
+    .btn-link:hover {
+        color: #22ffbd;
+    }
+    .btn {
+        -webkit-transition: color 0.125s;
+        transition: color 0.125s;
+    }
+    .btn:hover::before {
+        border-top-color: #22ffbd;
+        border-right-color: #22ffbd;
+        -webkit-transition: width 0.125s ease-out, height 0.125s ease-out 0.125s;
+        transition: width 0.125s ease-out, height 0.125s ease-out 0.125s;
+    }
+    .btn:hover::before,
+    .btn:hover::after {
+        width: 100%;
+        height: 100%;
+    }
+    .btn::before {
+        top: 0;
+        left: 0;
+    }
+    .btn::before,
+    .btn::after {
+        border: 2px solid transparent;
+        width: 0;
+        height: 0;
+    }
+    button::before,
+    button::after {
+        box-sizing: border-box;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .btn:hover::after {
+        border-bottom-color: #22ffbd;
+        border-left-color: #22ffbd;
+        -webkit-transition: border-color 0s ease-out 0.25s, width 0.125s ease-out 0.25s, height 0.125s ease-out 0.375s;
+        transition: border-color 0s ease-out 0.25s, width 0.125s ease-out 0.25s, height 0.125s ease-out 0.375s;
+    }
+    .btn:hover::before,
+    .btn:hover::after {
+        width: 100%;
+        height: 100%;
+    }
+    .btn::after {
+        bottom: 0;
+        right: 0;
+    }
+    .btn::before,
+    .btn::after {
+        border: 2px solid transparent;
+        width: 0;
+        height: 0;
+    }
+    button::before,
+    button::after {
+        box-sizing: border-box;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    /*FIN DU HOVER*/
+    span {
+        margin-top: 35px;
+        padding: 0 15px 0 15px;
+    }
+    .II h2,
+    .III h2,
+    .IV h2,
+    .V h2 {
+        /*margin-top: 35px;*/
+    }
+    .VI h2 {
+        margin-top: 65px;
+    }
+    .contenu p {
+        width: 1000px;
+    }
+}
+
+
+/*DESCKTOP*/
+
+@media screen and (min-width: 1600px) {
+    .I p {
+        width: 1250px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+}
