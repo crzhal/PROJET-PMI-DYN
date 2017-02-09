@@ -29,23 +29,6 @@ $(document).ready(function () {
     $(".desc-collapsed").toggleClass("desc-expanded");
   });
 
-  //OWL CAROUSEL CONFIG
-  $('.owl-carousel').owlCarousel({
-    items: 1,
-    loop: false,
-    center: true,
-    margin: 0,
-    URLhashListener: true,
-    autoplayHoverPause: false,
-    startPosition: 'URLHash',
-    smartSpeed: 750,
-  });
-
-  //PREVIENT LE SWIPE DE OWL CAROUSEL
-  $(".disable-owl-swipe").on("mousedown", function (e) {
-    e.stopPropagation();
-  });
-
   //FAIT LA ROTATION DE L'ICONE FLECH DESC    
   $(".desc-h1").click(function () {
     $(".rotate").toggleClass("down");
