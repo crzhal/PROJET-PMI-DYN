@@ -3,6 +3,12 @@
    type: 'get',
    dataType: 'json',
    success: function (code_html, statut, data) {
+    
+      //BURGER MENU EXPAND
+     $(".menu-collapsed").click(function () {
+       $(this).toggleClass("menu-expanded");
+     });
+    
      var data = data.responseJSON;
      console.log("hhh" + data.projet.length);
 
@@ -81,11 +87,6 @@
      //PREVIENT LE SWIPE DE OWL CAROUSEL
      $(".disable-owl-swipe").on("mousedown", function (e) {
        e.stopPropagation();
-     });
-
-     //BURGER MENU EXPAND
-     $(".menu-collapsed").click(function () {
-       $(this).toggleClass("menu-expanded");
      });
 
      //BAR DE DESCRIPTION
