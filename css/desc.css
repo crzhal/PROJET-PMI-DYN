@@ -55,7 +55,6 @@ a {
 
 .desc-collapsed {
   overflow: hidden;
-  float: right;
   position: relative;
   z-index: 99999;
   background-color: #1e1d1c !important;
@@ -99,25 +98,24 @@ a {
 }
 
 .team-pics {
-
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .h22 {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .desc-text {
-  margin-bottom:25px;
-
+  margin-bottom: 25px;
 }
+
 .desc-content {
-  width:220px;
+  width: 220px;
   height: auto;
 }
 
 p {
-  font-size:12px !important;
+  font-size: 12px !important;
 }
 
 
@@ -135,13 +133,15 @@ p {
     width: 50px !important;
     height: auto;
   }
+  .desc-collapsed {
+    float: right;
+  }
 }
 
 
 /*LAPTOP*/
 
 @media screen and (min-width: 992px) {
-
   p {
     font-size: 16px !important;
   }
