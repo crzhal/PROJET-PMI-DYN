@@ -6,6 +6,10 @@ h2 {
   margin: 0;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .devs {
   height: 50px !important;
 }
@@ -55,7 +59,7 @@ h2 {
   position: relative;
   z-index: 99999;
   background-color: #1e1d1c !important;
-  width: 190px !important;
+  width: 250px !important;
   height: 50px !important;
   margin-right: 33px;
   cursor: default!important;
@@ -70,7 +74,7 @@ h2 {
   position: relative;
   z-index: 99999;
   background-color: #1e1d1c !important;
-  width: 190px !important;
+  width: 250px !important;
   height: 100vh !important;
   overflow: auto !important;
   -webkit-transition: 0.4s !important;
@@ -107,6 +111,14 @@ h2 {
   margin-bottom:25px;
 
 }
+.desc-content {
+  width:220px;
+  height: auto;
+}
+
+p {
+  font-size:12px !important;
+}
 
 
 /*TABLETTE*/
@@ -129,6 +141,10 @@ h2 {
 /*LAPTOP*/
 
 @media screen and (min-width: 992px) {
+
+  p {
+    font-size: 16px !important;
+  }
   .desc-collapsed {
     float: right;
     margin-right: 15%;
