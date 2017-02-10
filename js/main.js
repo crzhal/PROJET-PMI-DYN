@@ -93,6 +93,26 @@
      $(".desc-h1, .fa-angle-double-down").click(function () {
        $(".rotate").toggleClass("down");
      });
+
+     $(".button").hover(function () {
+
+       if ($(window).width() <= 992) {
+
+         $(this).find(".id").css("display", "inline-block");
+       } else {
+         $(this).find(".nom").css("display", "inline-block");
+         $(this).find(".id").css("display", "none");
+       }
+     }, function () {
+       if ($(window).width() <= 725) {
+         $(this).find(".nom").css("display", "none");
+         $(this).find(".id").css("display", "inline-block");
+       } else {
+         $(this).find(".nom").css("display", "none");
+         $(this).find(".id").css("display", "inline-block");
+       }
+
+     });
    }
 
  });
@@ -121,25 +141,7 @@
 
 
 
-   $(".button").hover(function () {
 
-     if ($(window).width() <= 992) {
-
-       $(this).find(".id").css("display", "inline-block");
-     } else {
-       $(this).find(".nom").css("display", "inline-block");
-       $(this).find(".id").css("display", "none");
-     }
-   }, function () {
-     if ($(window).width() <= 725) {
-       $(this).find(".nom").css("display", "none");
-       $(this).find(".id").css("display", "inline-block");
-     } else {
-       $(this).find(".nom").css("display", "none");
-       $(this).find(".id").css("display", "inline-block");
-     }
-
-   });
 
    var nom_vue = 0;
 
