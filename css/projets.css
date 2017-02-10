@@ -12,6 +12,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .rotate {
   -moz-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -23,6 +27,10 @@ ul {
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.desc p {
+  font-family: 'ralewaylight' !important;
 }
 
 
@@ -319,6 +327,11 @@ div.owl-dots {
   height: 100%;
 }
 
+.desc-collapsed {
+  width:700px !important;
+  height:auto !important;
+}
+
 
 /*---------------------- /OWL CAROUSEL -----------------------*/
 
@@ -332,6 +345,7 @@ div.owl-dots {
 
 .burgernav_expanded a:hover {
   color: #22ffbd;
+  transition:0.7s;
 }
 
 .burgernav_expanded a:link,
@@ -467,3 +481,5 @@ span.nom_projet {
     font-size: 6em;
   }
 }
+
+
