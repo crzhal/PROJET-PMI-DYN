@@ -56,8 +56,6 @@ a {
   background-color: rgba(41, 41, 40, 1);
 }
 
-
-
 .menu-collapsed {
   -webkit-transition: all .25s;
   -moz-transition: all .25s;
@@ -328,8 +326,8 @@ div.owl-dots {
 }
 
 .desc-collapsed {
-  width:700px !important;
-  height:auto !important;
+  width: 700px !important;
+  height: auto !important;
 }
 
 
@@ -345,7 +343,7 @@ div.owl-dots {
 
 .burgernav_expanded a:hover {
   color: #22ffbd;
-  transition:0.7s;
+  transition: 0.7s;
 }
 
 .burgernav_expanded a:link,
@@ -356,13 +354,13 @@ div.owl-dots {
   text-decoration: none !important;
 }
 
-.hell-div {
+.carou-div {
   width: 1152px;
   height: auto;
   margin: 0 auto;
 }
 
-.hell {
+.carou {
   position: absolute !important;
   z-index: 50 !important;
   width: 1152px !important;
@@ -385,12 +383,12 @@ span.nom_projet {
 }
 
 .mobile-sh {
-  width:200px !important;
-  height:auto !important:
+  width: 200px !important;
+  height: auto !important:
 }
 
 .desktop-sh {
-  display:none!important;
+  display: none!important;
 }
 
 
@@ -413,11 +411,10 @@ span.nom_projet {
     font-size: 2em;
     line-height: 200px;
   }
-  
   .mobile-sh {
-  width:300px !important;
-  height:auto !important:
-}
+    width: 300px !important;
+    height: auto !important:
+  }
 }
 
 
@@ -463,14 +460,12 @@ span.nom_projet {
   .projets-nav span.nom {
     display: none;
   }
-   img.mobile{
-        display: none !important;
-    }
-  
-  .desktop-sh {
-    display:inline-block !important;
+  img.mobile {
+    display: none !important;
   }
-  
+  .desktop-sh {
+    display: inline-block !important;
+  }
 }
 
 
@@ -481,5 +476,3 @@ span.nom_projet {
     font-size: 6em;
   }
 }
-
-

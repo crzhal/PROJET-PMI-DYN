@@ -3,7 +3,7 @@
    type: 'get',
    dataType: 'json',
    success: function (code_html, statut, data) {
-    
+
      var data = data.responseJSON;
      console.log("hhh" + data.projet.length);
 
@@ -35,9 +35,9 @@
          "</div>" +
          "</div>" +
          "</div>" +
-         "<div class='hell-div'>" +
-         "<img class='hell desktop desktop-sh' src='" + data.projet[i].img + "' alt=''>" +
-         "<img class='hell mobile mobile-sh' src='" + data.projet[i].imgm + "' alt=''>" +
+         "<div class='carou-div'>" +
+         "<img class='carou desktop desktop-sh' src='" + data.projet[i].img + "' alt=''>" +
+         "<img class='carou mobile mobile-sh' src='" + data.projet[i].imgm + "' alt=''>" +
          "</div>" +
          "</div>"
        )
